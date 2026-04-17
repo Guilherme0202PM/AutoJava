@@ -10,5 +10,9 @@ public class TestePessoas {
         Pessoa p3 = new Pessoa("Maria", 30, 1.65);
 
         System.out.println("Pessoas criadas com sucesso!");
+
+        Pessoa p = new Pessoa();
+        p.setNome("Carlos");
+        System.out.println(p.getNome());
     }
 }
