@@ -31,4 +31,13 @@ public class Professor extends Pessoa {
     public void setDisciplina(String disciplina) {
         this.disciplina = disciplina;
     }
+
+    public void aumentarSalario(double aumento) {
+        System.out.println("Salário antes: " + this.salario);
+
+        this.salario += aumento;
+
+        System.out.println("Aumento aplicado: " + aumento);
+        System.out.println("Salário atual: " + this.salario);
+    }
 }
